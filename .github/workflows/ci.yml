@@ -20,4 +20,6 @@ jobs:
         uses: olafurpg/setup-scala@v14
       - name: Compile
         run: sbt compile
+      - name: Test
+        run: sbt test
 
