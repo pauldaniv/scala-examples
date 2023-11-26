@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
   .enablePlugins(PlayService, PlayLayoutPlugin, Common)
   .settings(
     name := "play-scala-rest-api-example",
-    scalaVersion := scala213,
+    scalaVersion := scala3,
     crossScalaVersions := Seq(scala213, scala3),
     libraryDependencies ++= Seq(
       guice,
