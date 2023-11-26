@@ -1,5 +1,6 @@
 @main def hello: Unit =
   println("Hello world!")
+  println("Dummy change")
   println(msg)
   println(msg)
 
