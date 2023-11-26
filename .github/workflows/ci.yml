@@ -22,6 +22,6 @@ jobs:
           java-version: 17
           distribution: 'temurin'
           cache: 'sbt'
-      - name: Run tests
+      - name: Test
         run: ./sbtx test
         # Optional: This step uploads information to the GitHub dependency graph and unblocking Dependabot alerts for the repository
